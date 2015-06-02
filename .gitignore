@@ -1,0 +1,9 @@
+*.pyc
+*.iml
+.idea/
+*.exe
+*.db
+*.swp
+.session_cache/
+venv/
+__pycache__/
