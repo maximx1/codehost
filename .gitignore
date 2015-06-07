@@ -7,3 +7,4 @@
 .session_cache/
 venv/
 __pycache__/
+config.json

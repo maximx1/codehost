@@ -1,2 +1,5 @@
 from app import app
-app.run(debug=True)
+
+app.config['UPLOAD_FOLDER'] = '/tmp/codehost/uploads/binaries'
+
+app.run(host='0.0.0.0',debug=True)
